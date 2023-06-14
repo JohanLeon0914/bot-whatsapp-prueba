@@ -1,0 +1,40 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573053538551@s.whatsapp.net',
+    fromMe: false,
+    id: '9F413C4C969C22535996A2E49866BBE6',
+    participant: undefined
+  },
+  messageTimestamp: 1686700667,
+  pushName: 'angeldavidortizr',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573053538551'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573053538551@s.whatsapp.net',
+    fromMe: false,
+    id: 'FCBEC3C1B07DC7129E6080E43F9068DE',
+    participant: undefined
+  },
+  messageTimestamp: 1686700709,
+  pushName: 'angeldavidortizr',
+  broadcast: false,
+  message: Message {
+    conversation: 'Discord',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Discord',
+  from: '573053538551'
+}
