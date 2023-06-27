@@ -99,15 +99,17 @@ const MockAdapter = require("@bot-whatsapp/database/mock");
   
 // );
 
-const flowDomicilio = addKeyword(["domicilio"]).addAnswer(
+const flowDomicilio = addKeyword(["domicilio", "Domicilio", "Dommicilio", "dommicilio", "Domisilio", "domisilio", "Dommisilio", "dommisilio"]).addAnswer(
   [
     "¡Gracias por elegir el servicio a domicilio de Doña Popetas! 🌟 Estamos aquí para endulzar tu día y llevar deliciosas golosinas hasta la puerta de tu hogar. 😊",
     "En Doña Popetas contamos con una amplia variedad de opciones que te encantarán:",
     "🍿 ¿Prefieres palomitas saladas o acarameladas? ¡Ambas son una delicia para disfrutar en casa!",
     "☁ ¿Qué te parece un esponjoso algodón de azúcar? Será como una nube dulce en tu paladar.",
-    "Por favor, déjanos tu pedido por escrito y enseguida un amable asesor humano se encargará de atenderte y tomar todos los detalles necesarios. ¡Estamos ansiosos por servirte!" 
+    "Por favor, déjanos tu pedido por escrito y enseguida un amable asesor humano se encargará de atenderte y tomar todos los detalles necesarios. ¡Estamos ansiosos por servirte!"
   ],
-  null,
+  {
+    media: 'https://i.ibb.co/stBSFbW/imagen-2023-06-27-102923826.png'
+  },
   null
 );
 
@@ -134,7 +136,7 @@ const flowPrincipal = addKeyword(["hola", "ole", "alo", "ola"])
 
 const main = async () => {
   const adapterDB = new MockAdapter();
-  const adapterFlow = createFlow([flowPrincipal, flowSecundario]);
+  const adapterFlow = createFlow([flowPrincipal]);
   const adapterProvider = createProvider(BaileysProvider);
 
   createBot({

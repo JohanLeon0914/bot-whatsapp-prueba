@@ -1,0 +1,50 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573022018302@s.whatsapp.net',
+    fromMe: false,
+    id: '9032A2CC1F8629422C85E80A1DB6F8B1',
+    participant: undefined
+  },
+  messageTimestamp: 1687880022,
+  pushName: 'Mariangel',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573022018302'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573022018302@s.whatsapp.net',
+    fromMe: false,
+    id: '72367F46FBBCE2ADAC5DE90FA2DEFE7C',
+    participant: undefined
+  },
+  messageTimestamp: 1687880029,
+  pushName: 'Mariangel',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Domicilio',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Domicilio',
+  from: '573022018302'
+}
