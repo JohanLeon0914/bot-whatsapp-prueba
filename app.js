@@ -113,7 +113,7 @@ const flowDomicilio = addKeyword(["domicilio", "Domicilio", "Dommicilio", "dommi
   null
 );
 
-const flowPrincipal = addKeyword(["hola", "ole", "alo", "ola"])
+const flowPrincipal = addKeyword(["hola", "ola"])
   .addAnswer(
     "🙌 Hola bienvenido a Doña Popeta, ¿desea realizar algún pedido a domicilio?"
   )
